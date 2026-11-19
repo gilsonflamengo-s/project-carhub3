@@ -1,0 +1,21 @@
+{
+  "name": "carhub-site",
+  "version": "1.0.0",
+  "description": "Carhub Detailing website demonstration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "gsap": "^3.15.1"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  },
+  "private": true
+}
